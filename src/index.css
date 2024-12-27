@@ -1,0 +1,23 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS File (App.css) */
+.globe-map-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
